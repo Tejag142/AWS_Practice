@@ -5,8 +5,8 @@ Image_ID="ami-09c813fb71547fc4f"
 Security_Group_ID="sg-01c0372b028981e8c"
 Zone_ID="Z0820810MDVVL6POTF7"
 DNS="ajet142.store"
-Instances= ("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "frontend")
-
+#Instances=(mongodb redis "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "frontend")
+Instances=(mongodb redis)
 
 for instances in $(Instances[@])
 do
