@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 chmod 755 $0
 Image_ID="ami-09c813fb71547fc4f"
