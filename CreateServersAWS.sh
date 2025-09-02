@@ -7,9 +7,6 @@ Zone_ID="Z0820810MDVVL6POTF7"
 DNS="ajet142.store"
 #Instances=(mongodb redis "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "frontend")
 Instances=("mongodb" "frontend")
-array=("A" "B" "ElementC" "ElementE")
-
-echo "$(array)"
 
 for instances in "$(Instances[@])"
 do
