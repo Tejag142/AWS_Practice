@@ -1,6 +1,6 @@
 #!/bin/sh
 
-
+chmod 755 $0
 Image_ID="ami-09c813fb71547fc4f"
 Security_Group_ID="sg-01c0372b028981e8c"
 Zone_ID="Z0820810MDVVL6POTF7"
